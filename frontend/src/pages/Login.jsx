@@ -30,7 +30,6 @@ function Login() {
 
       <section className="form">
         <form onSubmit={onSubmit}>
-          
           <div className="form-group">
             <input
               type="email"
@@ -53,7 +52,7 @@ function Login() {
               onChange={onChange}
             />
           </div>
-          
+
           <div className="form-group">
             <button type="submit" className="btn btn-block">
               Submit
