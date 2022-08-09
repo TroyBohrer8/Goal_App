@@ -18,11 +18,6 @@ function Header() {
             <FaUser /> Register
           </Link>
         </li>
-        <li>
-          <Link to="/login">
-            <FaSignInAlt /> Login
-          </Link>
-        </li>
       </ul>
     </header>
   );
